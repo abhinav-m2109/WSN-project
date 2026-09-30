@@ -1,1 +1,2 @@
-## Title: Blockchain-Based Trust Management for Reliable and Secure Packet Routing in Wireless Sensor Networks
+## Title: Blockchain-Based Trust Management for Reliable and Secure Packet Routing in Wireless Sensor Networks  
+The problem: Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infrastructure, IoT systems — relay data packets through multiple intermediate nodes. Some nodes are unreliable (drop packets due to congestion/hardware issues), and some are malicious (deliberately drop, alter, or misroute packets). Standard routing just picks the shortest path, ignoring whether nodes are trustworthy — so it can route straight through a bad node.
