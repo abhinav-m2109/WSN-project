@@ -8,4 +8,4 @@ Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infr
 
 ## Status:
 
-In progress 
+In progress of developing and implementation.
