@@ -8,4 +8,7 @@ Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infr
 
 ## Status:
 
-In progress of developing and implementation.
+ In progress.
+- [ ] Trust score model for node reliability
+- [ ] Blockchain ledger integration for trust records
+- [ ] Simulation / routing protocol integration
