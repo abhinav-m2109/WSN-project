@@ -9,6 +9,7 @@ Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infr
 Trust Computation Complexity: Existing trust-aware routing approaches use multiple direct, indirect, or attribute-based trust parameters, which can increase computational complexity.  
 Blockchain Overhead: Although blockchain provides tamper-resistant storage, maintaining blockchain records can introduce additional communication, storage, and processing overhead in resource-constrained sensor nodes.  
 Resource Constraints: Several recent approaches use deep learning, swarm intelligence, reinforcement learning, or multi-objective optimization, which may require computational resources that are difficult to provide on sensor nodes.  
+Trust and Distance Integration Gap: Some routing mechanisms primarily focus on trust while others emphasize energy or distance. A lightweight mechanism that jointly considers node trust and communication distance is required.
 ## Status:
 
  In progress.
