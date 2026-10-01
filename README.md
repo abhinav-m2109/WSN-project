@@ -6,8 +6,8 @@ Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infr
 * Unreliable nodes that drop packets due to congestion or hardware limitations.  
 * Malicious nodes that intentionally drop, alter, or misroute packets.
 ## GAPS IDENTIFIED:
-Trust Computation Complexity: Existing trust-aware routing approaches use multiple direct, indirect, or attribute-based trust parameters, which can increase computational complexity.
-
+Trust Computation Complexity: Existing trust-aware routing approaches use multiple direct, indirect, or attribute-based trust parameters, which can increase computational complexity.  
+Blockchain Overhead: Although blockchain provides tamper-resistant storage, maintaining blockchain records can introduce additional communication, storage, and processing overhead in resource-constrained sensor nodes.
 ## Status:
 
  In progress.
