@@ -11,6 +11,7 @@ Blockchain Overhead: Although blockchain provides tamper-resistant storage, main
 Resource Constraints: Several recent approaches use deep learning, swarm intelligence, reinforcement learning, or multi-objective optimization, which may require computational resources that are difficult to provide on sensor nodes.  
 Trust and Distance Integration Gap: Some routing mechanisms primarily focus on trust while others emphasize energy or distance. A lightweight mechanism that jointly considers node trust and communication distance is required.  
 Dynamic Malicious Behavior: Nodes may change their behavior over time. Static trust values may therefore become inaccurate when a previously reliable node begins dropping or misrouting packets.  
+Trust Record Integrity: Conventional trust databases may be vulnerable to manipulation if a malicious node gains access to stored trust information. A tamper-evident mechanism is required to improve trust-record integrity.
 ## Status:
 
  In progress.
