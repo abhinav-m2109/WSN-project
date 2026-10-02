@@ -6,6 +6,7 @@ Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infr
 * Unreliable nodes that drop packets due to congestion or hardware limitations.  
 * Malicious nodes that intentionally drop, alter, or misroute packets.
 Conventional routing algorithms pick paths based purely on distance or hop count, with no regard for whether a node is actually trustworthy.
+This project solves that by making routing trust-aware.
 
 ## Status:
 
