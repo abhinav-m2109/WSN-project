@@ -5,3 +5,4 @@ Then routing picks paths through trusted nodes instead of just the shortest one 
 So I have thought to solve the problem which is "Sensor networks lose data and get exploited because routing doesn't account for which nodes are actually trustworthy".
 By the solution of building a trust-scoring system backed by a tamper-proof blockchain, so routing can dynamically avoid bad nodes.
 Impact of this project: In simulation, this improved packet delivery and made the network resilient against nodes that start misbehaving mid-operation.
+However, we are having issues while running the tests and will be fixing those issues soon.
