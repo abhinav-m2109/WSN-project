@@ -3,3 +3,4 @@ Most routing just picks the shortest path and doesn't care if a node is trustwor
 What I built tracks each node's behavior over time, gives it a trust score, and locks that score on a lightweight blockchain so it can't be faked.  
 Then routing picks paths through trusted nodes instead of just the shortest one — so you get fewer dropped packets and better security at the same time. 
 So I have thought to solve the problem which is "Sensor networks lose data and get exploited because routing doesn't account for which nodes are actually trustworthy".
+By the solution of building a trust-scoring system backed by a tamper-proof blockchain, so routing can dynamically avoid bad nodes.
