@@ -1,3 +1,3 @@
 So the problem is, sensor networks pass data node to node, and some nodes are unreliable or even compromised — they drop or mess with packets  
 Most routing just picks the shortest path and doesn't care if a node is trustworthy.  
-What I built tracks each node's behavior over time, gives it a trust score, and locks that score on a lightweight blockchain so it can't be faked.
+What I built tracks each node's behavior over time, gives it a trust score, and locks that score on a lightweight blockchain so it can't be faked.  
