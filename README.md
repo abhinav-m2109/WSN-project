@@ -8,7 +8,8 @@ Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infr
   
 ## Problem:  
 Sensor networks lose data and are vulnerable to exploitation because routing decisions don't account for which nodes are actually trustworthy.  
-## Solution:
+## Solution:  
+A trust-scoring system backed by a tamper-proof blockchain, so routing can dynamically detect and avoid unreliable or malicious nodes — instead of blindly trusting the shortest path.
 ## Status:
 
  In progress.
