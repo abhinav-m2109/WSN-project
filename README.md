@@ -6,7 +6,8 @@ Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infr
 * Unreliable nodes that drop packets due to congestion or hardware limitations.  
 * Malicious nodes that intentionally drop, alter, or misroute packets.  
   
-## Problem:
+## Problem:  
+Sensor networks lose data and are vulnerable to exploitation because routing decisions don't account for which nodes are actually trustworthy.
 ## Status:
 
  In progress.
