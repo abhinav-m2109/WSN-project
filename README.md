@@ -8,6 +8,7 @@ Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infr
   
 ## Problem:  
 Sensor networks lose data and are vulnerable to exploitation because routing decisions don't account for which nodes are actually trustworthy.  
+## Solution:
 ## Status:
 
  In progress.
