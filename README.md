@@ -16,6 +16,8 @@ A trust-scoring system backed by a tamper-proof blockchain, so routing can dynam
 In simulation, trust-aware routing improved packet delivery and made the network resilient against nodes that started misbehaving mid-operation — compared to standard shortest-path routing, which had no way to detect or avoid them.  
 
 ## Sample Diagram:  
+<img width="804" height="679" alt="Screenshot 2026-10-04 225932" src="https://github.com/user-attachments/assets/851e287d-d9a6-46b0-ab6a-6dd664fb288c" />
+
 
 
 ## Status:
