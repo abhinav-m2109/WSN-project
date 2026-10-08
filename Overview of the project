@@ -6,7 +6,7 @@ So I have thought to solve the problem which is "Sensor networks lose data and g
 By the solution of building a trust-scoring system backed by a tamper-proof blockchain, so routing can dynamically avoid bad nodes.
 Impact of this project: In simulation, this improved packet delivery and made the network resilient against nodes that start misbehaving mid-operation.
 Algorithms used:
-1	Erdős–Rényi random graph (gnp_random_graph)	network.py	Builds the random sensor network. Each pair of nodes is connected with probability 0.3.
+1.Erdős–Rényi random graph (gnp_random_graph)	network.py	Builds the random sensor network. Each pair of nodes is connected with probability 0.3.
 2	Trust ratio Ti = Si / (Si + Fi)	trust.py	Turns each node’s success/fail counts into a trust score between 0 and 1.
 3	BFS shortest path	routing.py	Baseline routing. Finds the path with the fewest hops and ignores trust.
 4	Dijkstra’s algorithm with cost Ci = α·Di + β(1 − Ti)	routing.py	Trust-aware routing. Finds the path with the lowest combined distance-and-distrust cost.
