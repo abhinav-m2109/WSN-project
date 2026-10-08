@@ -11,3 +11,4 @@ Algorithms used:
 3	BFS shortest path	routing.py	Baseline routing. Finds the path with the fewest hops and ignores trust.
 4	Dijkstra’s algorithm with cost Ci = α·Di + β(1 − Ti)	routing.py	Trust-aware routing. Finds the path with the lowest combined distance-and-distrust cost.
 5	SHA-256 hashing	blockchain.py	Hashes each block (node ID, trust value, timestamp, previous hash) to build the tamper-evident chain.
+6	Hash-chain validation	blockchain.py	is_valid() walks the chain and checks that every block’s hash and previous-hash link are intact, which detects tampering.
