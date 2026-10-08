@@ -9,3 +9,4 @@ Algorithms used:
 1	Erdős–Rényi random graph (gnp_random_graph)	network.py	Builds the random sensor network. Each pair of nodes is connected with probability 0.3.
 2	Trust ratio Ti = Si / (Si + Fi)	trust.py	Turns each node’s success/fail counts into a trust score between 0 and 1.
 3	BFS shortest path	routing.py	Baseline routing. Finds the path with the fewest hops and ignores trust.
+4	Dijkstra’s algorithm with cost Ci = α·Di + β(1 − Ti)	routing.py	Trust-aware routing. Finds the path with the lowest combined distance-and-distrust cost.
