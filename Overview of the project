@@ -12,3 +12,4 @@ Algorithms used:
 4	Dijkstra’s algorithm with cost Ci = α·Di + β(1 − Ti)	routing.py	Trust-aware routing. Finds the path with the lowest combined distance-and-distrust cost.
 5	SHA-256 hashing	blockchain.py	Hashes each block (node ID, trust value, timestamp, previous hash) to build the tamper-evident chain.
 6	Hash-chain validation	blockchain.py	is_valid() walks the chain and checks that every block’s hash and previous-hash link are intact, which detects tampering.
+7	Bernoulli (random) drop model	main.py	Simulates misbehaviour. Malicious nodes drop packets with 70% probability and normal nodes fail 5% of the time.
