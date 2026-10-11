@@ -18,4 +18,3 @@ Algorithms used:
 The blockchain doesn’t yet influence routing. The router reads trust directly from the network graph, and the blockchain only logs it. Right now it’s a tamper-evident audit trail, not part of the decision. To fix that, the router would read each node’s latest trust from the chain and refuse to route if is_valid() fails. I can add that.
 It’s a single-machine simulation. There’s no distributed consensus and no real wireless behaviour.
 Only packet delivery ratio is measured so far. Your paper also promises delay, overhead, energy and detection metrics, and the code doesn’t compute those yet.
-Early packets still hit malicious nodes, because trust takes a few observations to build. That’s expected, and it’s worth saying out loud in the viva.
