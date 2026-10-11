@@ -14,4 +14,5 @@ Algorithms used:
 6. Hash-chain validation	blockchain.py	is_valid() walks the chain and checks that every block’s hash and previous-hash link are intact, which detects tampering.
 7. Bernoulli (random) drop model	main.py	Simulates misbehaviour. Malicious nodes drop packets with 70% probability and normal nodes fail 5% of the time.
 8. Random sampling	main.py	Picks which nodes are malicious and chooses random source/destination pairs for each packet.
-## Honest limitations:
+## Honest limitations:  
+Your panel may ask about these, so it helps to know them now:
