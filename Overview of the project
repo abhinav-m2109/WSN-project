@@ -14,6 +14,5 @@ Algorithms used:
 6. Hash-chain validation	blockchain.py	is_valid() walks the chain and checks that every block’s hash and previous-hash link are intact, which detects tampering.
 7. Bernoulli (random) drop model	main.py	Simulates misbehaviour. Malicious nodes drop packets with 70% probability and normal nodes fail 5% of the time.
 8. Random sampling	main.py	Picks which nodes are malicious and chooses random source/destination pairs for each packet.
-## Honest limitations:  
 The blockchain doesn’t yet influence routing. The router reads trust directly from the network graph, and the blockchain only logs it. Right now it’s a tamper-evident audit trail, not part of the decision. To fix that, the router would read each node’s latest trust from the chain and refuse to route if is_valid() fails. I can add that.
 
