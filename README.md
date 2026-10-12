@@ -1,26 +1,39 @@
-## Blockchain-Based Trust Management for Reliable and Secure Packet Routing in Wireless Sensor Networks  
+# Blockchain-Based Trust Management for Reliable and Secure Packet Routing in Wireless Sensor Networks
 
-## Overview:  
-Wireless Sensor Networks (WSNs) — used in environmental monitoring, smart infrastructure, and IoT systems — rely on multiple sensor nodes relaying data packets toward a destination. These networks face two core problems:  
+## Overview
+Wireless Sensor Networks (WSNs), used in environmental monitoring, smart infrastructure
+and IoT systems, rely on many sensor nodes relaying data packets towards a base station.
+They face two core problems:
 
-* Unreliable nodes that drop packets due to congestion or hardware limitations.  
-* Malicious nodes that intentionally drop, alter, or misroute packets.  
-  
-## Problem:  
-Sensor networks lose data and are vulnerable to exploitation because routing decisions don't account for which nodes are actually trustworthy.  
+- **Unreliable nodes** that drop packets because of congestion or hardware limits.
+- **Malicious nodes** that intentionally drop, alter or misroute packets.
 
-## Solution:  
- A trust-scoring system backed by a tamper-proof blockchain, so routing can dynamically detect and avoid unreliable or malicious nodes — instead of blindly trusting the shortest path. 
+## Problem
+Routing usually picks paths by distance, hop count or energy. It does not consider which
+nodes are actually trustworthy, so sensor networks lose data and are open to exploitation.
 
-## Impact:  
-In simulation, trust-aware routing improved packet delivery and made the network resilient against nodes that started misbehaving mid-operation — compared to standard shortest-path routing, which had no way to detect or avoid them.  
+## Solution
+A trust-scoring system backed by a lightweight, tamper-evident blockchain ledger. Each node's
+trust is computed from its observed forwarding behaviour (successful vs failed forwards) and
+recorded on the ledger. Routing then combines trust with distance, so it can detect and avoid
+unreliable or malicious nodes instead of blindly following the shortest path.
 
-## Status:
+## Impact (beta simulation)
+In simulation, trust-aware routing improved packet delivery over standard shortest-path routing:
+about 6 to 17 percentage points of PDR with 10-40% malicious nodes, and a smaller gain
+(about 3-4 points) when nodes only started misbehaving partway through operation.
+The cost is slightly higher delay, energy use and routing overhead.
+Numbers come from a simplified simulation, not from the final experiments.
 
- In progress.
-- [ ] Trust score model for node reliability
-- [ ] Blockchain ledger integration for trust records
-- [ ] Simulation / routing protocol integration
+## Status: In progress
+- [x] Trust score model for node reliability (beta)
+- [x] Hash-chained ledger for trust records (beta)
+- [x] Simulation of shortest-path vs trust-aware routing (beta)
+- [ ] Final experiments and evaluation
+- [ ] Paper publication
 
-## The uploaded files are just for beta running of the model. It is not the final project.  
-You can check it out and know how the project works.All the files are uploaded to see the working and also there is a file for intrustions on how it needs to be setup to simulate the project on your device.
+## Try it
+The uploaded files are a **beta version** of the model, meant to show how the project works.
+They are not the final project. See [SETUP.md](SETUP.md) for step-by-step instructions to
+run the simulation on your own device, and [README](README.md) for how the model works.
+
