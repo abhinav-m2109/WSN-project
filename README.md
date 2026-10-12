@@ -23,4 +23,4 @@ In simulation, trust-aware routing improved packet delivery and made the network
 - [ ] Simulation / routing protocol integration
 
 ## The uploaded files are just for beta running of the model. It is not the final project.  
-You can check it out and know how the project works.
+You can check it out and know how the project works.All the files are uploaded to see the working and also there is a file for intrustions on how it needs to be setup to simulate the project on your device.
