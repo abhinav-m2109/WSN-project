@@ -21,3 +21,6 @@ In simulation, trust-aware routing improved packet delivery and made the network
 - [ ] Trust score model for node reliability
 - [ ] Blockchain ledger integration for trust records
 - [ ] Simulation / routing protocol integration
+
+## The uploaded files are just for beta running of the model. It is not the final project.  
+You can check it out and know how the project works.
