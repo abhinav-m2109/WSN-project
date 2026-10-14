@@ -30,7 +30,7 @@ Numbers come from a simplified simulation, not from the final experiments.
 - [x] Hash-chained ledger for trust records (beta)
 - [x] Simulation of shortest-path vs trust-aware routing (beta)
 - [ ] Final experiments and evaluation
-- [ ] Paper publication
+      
 
 ## Try it
 The uploaded files are a **beta version** of the model, meant to show how the project works.
