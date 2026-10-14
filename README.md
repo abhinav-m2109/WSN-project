@@ -1,4 +1,4 @@
-# Blockchain-Based Trust Management for Reliable and Secure Packet Routing in Wireless Sensor Networks
+# Blockchain-Based Trust Management for Reliable and Secure Packet Routing in Wireless Sensor Networks (WSN)
 
 ## Overview
 Wireless Sensor Networks (WSNs), used in environmental monitoring, smart infrastructure
