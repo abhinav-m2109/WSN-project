@@ -18,7 +18,7 @@ trust is computed from its observed forwarding behaviour (successful vs failed f
 recorded on the ledger. Routing then combines trust with distance, so it can detect and avoid
 unreliable or malicious nodes instead of blindly following the shortest path.
 
-## Impact (beta simulation)
+## Impact (Beta simulation)
 In simulation, trust-aware routing improved packet delivery over standard shortest-path routing:
 about 6 to 17 percentage points of PDR with 10-40% malicious nodes, and a smaller gain
 (about 3-4 points) when nodes only started misbehaving partway through operation.
