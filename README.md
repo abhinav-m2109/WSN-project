@@ -32,7 +32,7 @@ Numbers come from a simplified simulation, not from the final experiments.
 - [ ] Final experiments and evaluation
 
 ## Try it
-The uploaded files are a **beta version** of the model, meant to show how the project works.
+The uploaded files are a **beta version** of the model, meant to show how the project works.  
 They are not the final project. See [SETUP.md](SETUP.md) for step-by-step instructions to
 run the simulation on your own device, and [README](README.md) for how the model works.
 
