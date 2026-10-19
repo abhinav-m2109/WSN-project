@@ -26,9 +26,9 @@ The cost is slightly higher delay, energy use and routing overhead.
 Numbers come from a simplified simulation, not from the final experiments.
 
 ## Status: In progress
-- [x] Trust score model for node reliability (beta)
-- [x] Hash-chained ledger for trust records (beta)
-- [x] Simulation of shortest-path vs trust-aware routing (beta)
+- [x] Trust score model for node reliability (Beta)
+- [x] Hash-chained ledger for trust records (Beta)
+- [x] Simulation of shortest-path vs trust-aware routing (Beta)
 - [ ] Final experiments and evaluation
 
 ## Try it
