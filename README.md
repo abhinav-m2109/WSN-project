@@ -12,7 +12,7 @@ They face two core problems:
 Routing usually picks paths by distance, hop count or energy. It does not consider which
 nodes are actually trustworthy, so sensor networks lose data and are open to exploitation.
 
-## Solution
+## Solution:
 A trust-scoring system backed by a lightweight, tamper-evident blockchain ledger. Each node's
 trust is computed from its observed forwarding behaviour (successful vs failed forwards) and
 recorded on the ledger. Routing then combines trust with distance, so it can detect and avoid
