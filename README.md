@@ -29,7 +29,7 @@ Numbers come from a simplified simulation, not from the final experiments.
 - [x] Trust score model for node reliability (Beta)
 - [x] Hash-chained ledger for trust records (Beta)
 - [x] Simulation of shortest-path vs trust-aware routing (Beta)
-- [ ] Final experiments and evaluation
+- [ ] Final experiments and working evaluation
 
 ## Try it
 The uploaded files are a **beta version** of the model, meant to show how the project works.  
