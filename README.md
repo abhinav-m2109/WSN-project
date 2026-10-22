@@ -19,11 +19,11 @@ recorded on the ledger. Routing then combines trust with distance, so it can det
 unreliable or malicious nodes instead of blindly following the shortest path.
 
 ## Impact (Beta simulation)
-In simulation, trust-aware routing improved packet delivery over standard shortest-path routing:
+- In simulation, trust-aware routing improved packet delivery over standard shortest-path routing:
 about 6 to 17 percentage points of PDR with 10-40% malicious nodes, and a smaller gain
-(about 3-4 points) when nodes only started misbehaving partway through operation.
-The cost is slightly higher delay, energy use and routing overhead.
-Numbers come from a simplified simulation, not from the final experiments.
+(about 3-4 points) when nodes only started misbehaving partway through operation.  
+- The cost is slightly higher delay, energy use and routing overhead.  
+- Numbers come from a simplified simulation, not from the final experiments.
 
 ## Status: In progress
 - [x] Trust score model for node reliability (Beta)
