@@ -33,5 +33,5 @@ about 6 to 17 percentage points of PDR with 10-40% malicious nodes, and a smalle
 
 ## Try it
 - The uploaded files are a **beta version** of the model, meant to show how the project works.    
-They are not the final project. See [SETUP.md](SETUP.md) for step-by-step instructions to run the simulation on your own device, and [README](README.md) for how the model works.
+- They are not the final project. See [SETUP.md](SETUP.md) for step-by-step instructions to run the simulation on your own device, and [README](README.md) for how the model works.  
 
