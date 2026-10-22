@@ -8,7 +8,7 @@ They face two core problems:
 - **Unreliable nodes** that drop packets because of congestion or hardware limits.
 - **Malicious nodes** that intentionally drop, alter or misroute packets.
 
-## Problem
+## Problem:
 Routing usually picks paths by distance, hop count or energy. It does not consider which
 nodes are actually trustworthy, so sensor networks lose data and are open to exploitation.
 
